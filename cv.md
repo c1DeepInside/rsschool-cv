@@ -9,7 +9,7 @@
 + Discord: Ivan (@c1DeepInside)
 
 ## About me
-I am 21 years old, now I am at the beginning of my path as a frontend programmer. \
+I am a beginner frontend programmer. \
 Passed 4 courses of the Physics faculty of BSU. I decided to leave the university, because I realized how I could spend my time usefully. I was a student of the Department of Biophysics. For my coursework I was working on a mass spectrometry project related to SQL and pascal. \
 My strong points: capable of being taught, responsibility, ability to work in team, interest in frontend development.
 
