@@ -4,7 +4,7 @@
 + Location: Minsk, Belarus
 + Telegram: @c1DeepInside
 + Phone: +375 29 3310726
-+ GtiHub: [c1DeepInside](https://github.com/c1DeepInside)
++ GitHub: [c1DeepInside](https://github.com/c1DeepInside)
 + Email: vanya0759@gmail.com
 + Discord: Ivan (@c1DeepInside)
 
