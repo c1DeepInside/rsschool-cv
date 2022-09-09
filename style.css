@@ -1,0 +1,152 @@
+*{  margin: 0;
+    padding: 0;
+}
+html {
+    display: flex;
+    justify-content: center;
+    min-width: 1000px;
+}
+body{
+    width: 80%;
+    max-width: 1200px;
+}
+header{
+    position: relative;
+    z-index: 1;
+
+    padding: 15px 50px;
+    border: 2px solid rgb(92, 65, 117);
+    box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 1);
+    border-radius: 0 0 20px 20px;
+    background-color: rgba(220, 235, 238);
+}
+.header_nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header_nav li{
+    margin: 0;
+	padding: 0 0 0 26px;
+	list-style: none;
+	background-image: url("assets/icon/icon.ico");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.nav_item{
+    font: 25px 'Arvo', serif;
+    text-decoration: none;
+    color:rgb(92, 65, 117);
+}
+.nav_item:visited{
+    color:rgb(92, 65, 117);
+}
+.nav_item:hover {
+    color: rgb(15, 14, 14);
+}
+
+
+main{
+    border: 2px solid rgb(92, 65, 117);
+    border-bottom: 0;
+    border-top: 0;
+    margin: -4% 0;
+    background: linear-gradient(to bottom, rgb(223, 190, 253), rgba(220, 235, 238));
+}
+.profile{
+    padding: 6% 0 2% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.avatar{
+    width: 30%;
+    margin: 1% 0;
+    padding: 3px 3px 0 3px;
+    border: 2px solid rgb(92, 65, 117);
+    box-shadow: 3px 3px 10px 0 rgb(92, 65, 117);
+    border-radius: 10px;
+}
+.avatar img{
+    width: 100%;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font: 50px 'Arvo', serif;
+    color:rgb(92, 65, 117);
+    font-weight: bold;
+}
+
+.information{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 6%;
+}
+.lists, .description{
+    display: flex;
+    flex-direction: column;
+    color:rgb(0, 0, 0);
+    font: 18px 'Arvo', serif;
+}
+.information h2{
+    color:rgb(92, 65, 117);
+    font-size: 30px;
+}
+.lists{
+    justify-content: space-evenly;
+}
+.lists ul{
+    white-space: nowrap;
+    list-style: none;
+    margin: 20px 0 20px 22px;
+}
+.lists a{
+    color:rgb(92, 65, 117);
+}
+.lists a:visited{
+    color:rgb(92, 65, 117);
+}
+.lists a:hover{
+    color: rgb(15, 14, 14);
+}
+.description{
+    width: 60%;
+}
+.about-me p{
+    margin: 20px 0 20px 22px;
+}
+.code-example p{
+    margin: 20px 0 0 22px;
+}
+.courses ul{
+    list-style: none;  
+    margin: 20px 0 20px 22px; 
+}
+
+footer{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(92, 65, 117);
+    box-shadow: 0px -3px 10px 0 rgba(0, 0, 0, 1);
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(220, 235, 238);  
+    padding: 1%;
+}
+.rsschool_logo{
+    width: 125px;
+}
+.git_logo{
+    width: 64px;
+}
+footer p{
+    font: 20px "Verdana", sans-serif;
+    padding-top: 1.5%;
+}
+footer img:hover{
+    opacity: 0.8;
+}
