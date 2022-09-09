@@ -22,9 +22,19 @@ My strong points: capable of being taught, responsibility, ability to work in te
 + Adobe Photoshop, Figma
 
 ## Code example 
+Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
 ```
-function opposite(number) {
-  return -number;
+function fakeBin(x){
+  let str = x.toString();
+  let newStr = '';
+  for (let i = 0; i < str.length; i += 1){
+    if ((Number(str[i])) < 5){
+      newStr = newStr + '0';
+    } else {
+      newStr = newStr + '1';
+    } 
+  }   
+  return newStr;
 }
 ```
 ## Courses
