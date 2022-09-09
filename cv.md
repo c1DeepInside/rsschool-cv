@@ -6,6 +6,7 @@
 + Phone: +375 29 3310726
 + GtiHub: [c1DeepInside](https://github.com/c1DeepInside)
 + Email: vanya0759@gmail.com
++ Discord: Ivan (@c1DeepInside)
 
 ## About me
 I am 21 years old, now I am at the beginning of my path as a frontend programmer. \
