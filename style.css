@@ -4,10 +4,11 @@
 html {
     display: flex;
     justify-content: center;
+    min-width: 1000px;
 }
 body{
     width: 80%;
-    
+    max-width: 1200px;
 }
 header{
     position: relative;
