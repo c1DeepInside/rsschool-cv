@@ -13,25 +13,97 @@
     <header>
         <nav>
             <ul class="header_nav">
-                <li><a class="nav_item" href="#">Contacts</a></li>
-                <li><a class="nav_item" href="#">About me</a></li>
-                <li><a class="nav_item" href="#">Skills</a></li>
-                <li><a class="nav_item" href="#">Code example</a></li>
-                <li><a class="nav_item" href="#">Courses</a></li>
-                <li><a class="nav_item" href="#">Languages</a></li>
+                <li><a class="nav_item" href="#contacts">Contacts</a></li>
+                <li><a class="nav_item" href="#about-me">About me</a></li>
+                <li><a class="nav_item" href="#skills">Skills</a></li>
+                <li><a class="nav_item" href="#code-example">Code example</a></li>
+                <li><a class="nav_item" href="#courses">Courses</a></li>
+                <li><a class="nav_item" href="#languages">Languages</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="profile">
-            <div class="avatar"><img src="assets/images/avatar.png" alt="avatar" width="250"></div>
+            <div class="avatar"><img src="assets/images/avatar.png" alt="avatar" ></div>
             <h1 class="name">Ivan Trofimenkov</h1>
         </section>
+
+        <section class="information">
+            <div class="lists">
+                <div class="contacts" id="contacts">
+                    <h2>Contacts:</h2>
+                    <ul>
+                        <li>Location: Minsk, Belarus</li>
+                        <li>Telegram: @c1DeepInside</li>
+                        <li>Phone: +375 29 3310726</li>
+                        <li>GitHub: <a href="https://github.com/c1DeepInside">c1DeepInside</a></li>
+                        <li>Email: vanya0759@gmail.com</li>
+                        <li>Discord: Ivan (c1DeepInside)</li>
+                    </ul>
+                </div>
+                <div class="skills" id="skills">
+                    <h2>Skills:</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java Script</li>
+                        <li>VS Code, IntelliJ IDEA</li>
+                        <li>Git</li>
+                        <li>Adobe Photoshop, Figma</li>
+                    </ul>
+                </div>
+                <div class="languages" id="languages">
+                    <h2>Languages:</h2>
+                    <ul>
+                        <li>English (B1)</li>
+                        <li>Russian (Native)</li>
+                    </ul>
+                </div>
+            </div>  
+             
+            <div class="description">
+                <div class="about-me" id="about-me">
+                    <h2>About me:</h2>
+                    <p>I am a beginner frontend programmer.</p>
+                    <p>Passed 4 courses of the Physics faculty of BSU. I decided to leave the university, because I realized how I could spend my time usefully.
+                    I was a student of the Department of Biophysics. For my coursework I was working on a mass spectrometry project related to SQL and pascal.</p>
+                    <p>My strong points: capable of being taught, responsibility, ability to work in team, interest in frontend development.</p>        
+                </div>
+                <div class="code-example" id="code-example">
+                    <h2>Code example:</h2>
+                    <p>Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.</p>
+                    <pre>
+        <code>
+        function fakeBin(x){
+            let str = x.toString();
+            let newStr = '';
+            for (let i = 0; i &lt; str.length; i += 1){
+              if ((Number(str[i])) &lt; 5){
+                newStr = newStr + '0';
+              } else {
+                newStr = newStr + '1';
+              }
+            }
+            return newStr;
+        }</code>
+                    </pre>
+                </div>
+                <div class="courses" id="courses">
+                    <h2>Courses:</h2>
+                    <ul>
+                        <li>Self-study RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                        <li>RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
+
     <footer>
-        <a href="https://github.com/c1DeepInside" class="git_logo"> <img src="assets/icon/GitHub-Mark-64px.png"  alt="git logo"></a>
+        <a href="https://github.com/c1DeepInside" class="git_logo"><img src="assets/icon/GitHub-Mark-64px.png"  alt="git logo"></a> 
         <p>&#169; Ivan Trofimenkov 2022</p>
-        <a href="https://rs.school/index.html" class="rsschool_logo"> <img src="assets/icon/rs_school_js.svg"  alt="rsschool logo"></a>
+        <a href="https://rs.school/index.html" class="rsschool_logo"><img src="assets/icon/rs_school_js.svg"  alt="rsschool logo"></a>
     </footer>
 </body>
 </html>
